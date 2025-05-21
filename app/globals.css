@@ -73,3 +73,16 @@
 .horizontal-scroll-container {
   will-change: transform;
 }
+
+/* 既存のスタイルの後に追加 */
+@layer utilities {
+  .loading-gradient {
+    background: linear-gradient(
+      to right,
+      #4f46e5,
+      #ec4899,
+      #f97316
+    );
+    background-size: 200% 100%;
+  }
+}
